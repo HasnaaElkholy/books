@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(250, 206, 247, 0.406);
+    padding: 2pc 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 5.5px 4px rgba(0, 0, 0, 0.1);
+}
+header .logo p{
+    font-family: "Segoe Script";
+    font-size: 25px;
+    color: black;
+    margin-left: -95px;
+    font-weight: bold;
+}
+header .logo .store{
+    font-size: 25px;
+    color: rgb(255, 0, 221);
+}
+header .navbar a{
+    font-size: 20px;
+    padding: 0px 33px;
+    color: #666;
+}
+header .icons{
+    margin-right:0px;
+}
+header .icons a{
+    font-size: 20px;
+    padding: 0px 7px;
+    color: #666;
+}
+header a:hover{
+    color: rgb(255, 0, 221);
+    font-size: 23px;
+    transition: .3s;
+    cursor: pointer;
+}
+.icons #count{
+    width: 20px;
+    color: white;
+    background-color:  #666;
+    border-radius: 50%;
+    height: 20px;
+    text-align: center;
+
+}
+.end1{
+    height: 110px;
+}
+/* ----- */
+.contact{
+    width: 99%;
+    margin-left: 0.5%;
+    height: 400px;
+    top: 80px;
+    position: absolute;
+    background-position:center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../photos&videos/english.jpg);
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact button{
+    width: 187px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: none;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 540px;
+}
+.contact h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.master{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    float: right;
+}
+.left{
+    float: left;
+    width: 40%;
+    height: 490px;
+    margin-left: 8%;
+}
+.left p{
+    color:rgb(255, 0, 174);
+    margin:20px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing:1px;  
+}
+.left h1{
+    color:black;
+    margin:20px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing:1px;
+}
+.left h6{
+    color:black;
+    margin:20px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+}
+.left .div1{
+    width: 50%;
+    height: 90px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow:0px 1px 7px 0px #8a8a8a;
+}
+.left .div1 .icon1{
+    float: left;
+    margin-left: 20px;
+    margin-top: 19px;
+}
+.left .div1 .prag1{
+    float:left;
+}
+.prag1 .p1{
+    margin-left: 17px;
+    margin-top: 20px;
+    color: black;
+}
+.prag1 .p2{
+    margin-left: 17px;
+    margin-top: 6px;
+    font-size: 17px;
+    color: #8a8a8a;
+}
+.div2{
+    margin-top: 28px;
+}
+.icon2 img{
+    margin-top: 11px;
+    color: rgb(255, 0, 221);
+}
+.right{
+    float: left;
+    width: 40%;
+    height: 490px;
+    margin-left: 30px;
+    box-shadow:0px 1px 7px 0px #8a8a8a;
+}
+.form{
+    margin-left: 24px;
+    margin-top: 33px;
+}
+.form label{
+    font-size: 15px;
+    margin-left: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form input{
+    border: none;
+    border-radius: 20px;
+    width: 90%;
+    margin: 10px;
+    background-color:#f1f1f1;
+    height: 28px;
+    padding-left:10px;
+}.form  textarea{
+    width: 90%;
+    background-color:#f1f1f1;
+    border-radius: 10px;
+    padding-left:15px;
+    padding-top: 10px;
+    color: #8a8a8a;
+}
+.btn{
+    background-color: black;
+    width: 140px;
+    border-radius: 30px;
+    height: 40px;
+    margin-top: 20px;
+}
+.btn input{
+    color: white ;
+    background-color: black;
+    margin: 6px 0px 0px 0px;
+}footer{
+    margin-top: 935px;
+    height: 100px;
+    background-color: rgba(250, 206, 247, 0.406);
+}
+footer h3{
+    color:rgb(255, 0, 221);
+    font-family:initial;
+    float: left;
+    margin :37px 10px 10px 171px ;
+}
+footer div{
+    float: right;
+}
+footer div img{
+    width: 40px;
+    margin: 27px 58px 0px 0px;
+}
+footer div img:hover{ 
+    background-color:rgb(255, 0, 221);
+    cursor: pointer;
+    width: 40px;
+    border-radius: 10px;
+}

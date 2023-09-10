@@ -1,0 +1,226 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(250, 206, 247, 0.406);
+    padding: 2pc 8.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 5.5px 4px rgba(0, 0, 0, 0.1);
+}
+header .logo p{
+    font-family: "Segoe Script";
+    font-size: 25px;
+    color: black;
+    margin-left: -95px;
+    font-weight: bold;
+}
+header .logo .store{
+    font-size: 25px;
+    color: rgb(255, 0, 221);
+    margin-left: 2px;
+}
+header .navbar a{
+    font-size: 20px;
+    padding: 0px 33px;
+    color: #666;
+}
+header .icons{
+    margin-right:0px;
+}
+header .icons a{
+    font-size: 20px;
+    padding: 0px 7px;
+    color: #666;
+}
+header a:hover{
+    color: rgb(255, 0, 221);
+    font-size: 23px;
+    transition: .3s;
+    cursor: pointer;
+}
+.icons #count{
+    width: 20px;
+    color: white;
+    background-color:  #666;
+    border-radius: 50%;
+    height: 20px;
+    text-align: center;
+
+}
+.end1{
+    height: 110px;
+}
+/* ----- */
+.left{
+    float:left;
+}
+.parent{
+    float: left;
+    width: 1000px;
+    margin-left:130px;
+    margin-top:100px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+}
+.image>img{
+    float:left;
+    width: 470px;
+    height: 500px;
+    border-radius: 10px;
+}
+.sign{
+    float:left;
+    margin-left: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-decoration-color:#ab1e91;
+    color:black;
+    text-shadow: 4px 4px 4px #ab1e91;
+}
+.name input ,.email input ,.age input ,.pass input ,.country input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid #ab1e91;
+      margin:30px 0px 0px 150px;
+      font-weight: bold;
+      font-size: 17px;
+      background: transparent;
+      color:#ab1e91;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .address input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin:30px 0px 0px 150px;
+    font-weight: bolder;
+    color:#ab1e91;
+    border-bottom: 2px solid #ab1e91;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .select{
+    border-top: none;
+    border-left: none; 
+    border-right: none;
+    border-bottom:none;
+    border-bottom:none;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left:-58px;
+    background: transparent;
+    color: #6f6f6f;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ .gender{
+    margin-top: 20px;
+ }
+ span{
+    font-size: 18px;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: #716e6e;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.sub input{
+    margin-left: 153px;
+    margin-top: 28px;
+    border: none;
+    background-color:#ab1e91;
+    width: 215px;
+    height: 39px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 23px;
+  }
+  .sub input:hover{
+    cursor: pointer;
+    background-color:#ff9eed;
+  }
+
+        /* css about js*/
+#name_error{
+    margin:0px 0px 0px 150px;
+    font-size: 11px;
+    background: transparent;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    display:none;
+}
+#email_error{
+    margin:0px 0px 0px 150px;
+    font-size: 11px;
+    background: transparent;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    display:none;
+}
+#age_error{
+    margin:0px 0px 0px 150px;
+    font-size: 11px;
+    background: transparent;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    display:none;
+}
+#address_error ,#gender_error  ,#country_error{
+    margin:0px 0px 0px 150px;
+    font-size: 11px;
+    background: transparent;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    display:none;
+}
+
+footer{
+    margin-top: 635px;
+    height: 100px;
+    background-color: rgba(250, 206, 247, 0.406);
+}
+footer h3{
+    color:rgb(255, 0, 221);
+    font-family:initial;
+    float: left;
+    margin :37px 10px 10px 171px ;
+}
+footer div{
+    float: right;
+}
+footer div img{
+    width: 40px;
+    margin: 27px 58px 0px 0px;
+}
+footer div img:hover{
+    background-color:rgb(255, 0, 221);
+    cursor: pointer;
+    width: 40px;
+    border-radius: 10px;
+}
+.ww{
+    height: 200px;
+    background-color: aqua;
+
+}

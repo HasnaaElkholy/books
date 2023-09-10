@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online_library</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Header section start  -->
+    <header>
+        <div class="logo">
+            <p>Book<span class="store"> Store.</span></p>
+        </div>
+        <nav class="navbar">
+            <a href="home.html"><i class="fa fa-home"></i>Home</a>
+            <a href="about.html"><i class="fa fa-user"></i>About</a>
+            <a href="product.html"><i class="fa fa-clone"></i>Products</a>
+            <a href="details.html"><i class="fa fa-info-circle" aria-hidden="true"></i>Details</a>
+            <a href="contact.html"><i class="fa fa-phone"></i>ContactUs</a>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+            <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            <a href="login.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+        </div>
+    </header>
+    <div class="end1"></div>
+      <!-- Header section end  -->
+      
+      <div class="end2"></div>
+<div class="left">
+    <div class="parent">
+        <div class="image"><img src="../photos&videos/lodo.jpg" alt="" srcset=""></div>
+        <div class="sign">SIGN UP</div>
+        <div class="name">
+            <input type="text" id="name" placeholder=" Enter Name Here"  onkeyup="namefun1()">
+            <!------ 1-js ------>
+            <aside id="name_error">The name should have at least 3 character </aside>
+        </div>
+        <div class="email">
+            <input type="email" id="email" placeholder=" Enter Email Here"  onkeyup="emailfun2()">
+            <aside id="email_error">The email should have @gmail.com </aside>
+        </div>
+        <div class="age">
+            <input type="number" id="age" placeholder=" Enter Age Here"  onkeyup="agefun3()">
+            <aside id="age_error">The Age should between 16:60 </aside>
+        </div>
+        <div class="address">
+            <input type="text" id="address" placeholder="Enter Address Here"  onkeyup="addressfun4()">
+            <aside id="address_error">The Adress should have number&Word </aside>
+        </div>
+                        <!---------------5- About Country    ----------------->
+        <div class="country">
+            <input type="text" id="country1" placeholder="Enter Your Country Here" >
+            <aside id="country_error">Must Select One Country</aside>
+            <select name="address" id="country" class="select"  onclick="countryfun5()">
+                <option value=""></option>
+                <option value="Egypt">Egypt</option>
+                <option value="France">France</option>
+                <option value="Morocco">Morocco</option>
+                <option value="Jordon">Jordon</option>
+                <option value="Kuwait">Kuwait</option>
+            </select>
+           </div>
+        <div class="pass">
+            <input type="password" id="pass" placeholder=" Enter Password Here"  onkeyup="fun1()">
+        </div>
+        <div class="gender">
+            <span>Gender:</span>
+            <input type="radio" value="male" name="gender" id="male">Male
+            <input type="radio" value="Female" name="gender" id="female">Female
+            <aside id="gender_error">Must Select One gender</aside>
+        </div>
+        <div class="sub">
+            <input  type="submit" value="SIGN UP" onclick="check()">
+
+        </div>
+        
+        
+</div>
+</div>
+
+<footer>
+    <h3>Copyright © Hasnaa Ahmed Elkholy</h3>
+    <div>
+        <a href="https://www.facebook.com/home.php"><img src="../photos&videos/f.png" alt=""></a>
+        <a href="https://www.instagram.com/accounts/login/"><img src="../photos&videos/i.png" alt=""></a>
+        <a href="https://twitter.com/i/flow/login"><img src="../photos&videos/t.png" alt=""></a>
+        <a href="https://www.google.co.uk/"> <img src="../photos&videos/g.png" alt=""></a>
+        <a href="https://answers.microsoft.com/en-us/skype/forum/all/skype-login/f610f8a4-53dc-4780-9c17-baf5c35c41b5"><img src="../photos&videos/s.png" alt=""></a>
+    </div>
+   
+</footer>
+<script src="../js/login.js"></script>
+
+
+</body>
+</html>
